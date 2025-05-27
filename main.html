@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Healthcare Dashboard</title>
+  <link href="./style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <div class="sidebar">
+      <h2><strong style="color: #06e3f3;">Health</strong>care.</h2>
+      <ul type="none">
+        <p style="font-size: 15px; color: hsla(244, 67%, 10%, 0.247); font-weight: bold;">General</p>
+        <li style="color: rgb(4, 13, 97);"><img src="./images/sidebar/dashboard_icon.png" height="15px" salt="dashboard_icon" style="color: #1442a5;">  Dashboard</li>
+        <li ><img src="./images/sidebar/up_down_arrow_icon.png" height="15px"> History</li>
+        <li class="text_colour1"><img src="./images/sidebar/calendar_icon.png"height="15px" > Calendar</li>
+        <li class="text_colour1"><img src="./images/sidebar/add_icon.png" height="15px" > Appointments</li>
+        <li class="text_colour1"><img src="./images/sidebar/statistics_icon.png"height="15px"> Statistics</li>
+        </ul >
+        <div>
+        <ul type="none">
+          <p style="font-size: 15px; color: hsla(244, 67%, 10%, 0.247); font-weight: bold;">Tools</p>
+        <li class="text_colour1"><img src="./images/sidebar/chat_icon.png"height="18px" > Chat</li>
+        <li class="text_colour1"><img src="./images/sidebar/call_icon.png" height="15px"> Support</li>
+        </ul >
+        </div>
+        <div id="setting">
+        <ul type="none" >
+          <li class="text_colour1"><img src="./images/sidebar/setting_icon.png" height="15px" > Setting</li>
+        </ul>
+        </div>
+      </ul>
+    </div>
+    
+
+
+    <div class="main">
+      <div class="header">
+        <div id="Search_icon"><input type="text" placeholder="Search" />
+          <div id="notification_icon"><img src="./images/notification_icon.png" height="30px"></div> 
+        </div>
+        
+        <div class="week" style="color: #2f3b6d;"><h1>Dashboard</h1>
+        <h5 id="para" style="color: #5c74d4;">This Week <strong id="down_arrow_vector"></strong> </h5>
+      </div>
+
+     <div class="dashboard">
+        <div class="left-panel">
+          <div class="body-info">
+            
+            <div class="body-image">
+              
+              <img src="./images/Human_body.png" alt="Body" style="width: 100%; max-width: 300px; height: 100%; height: 500px;">
+            </div>
+            <div id="search_icon"><img src="./images/search_icon.png" height="30px" ></div>
+          </div>
+        <div class="body-stats">
+              <div class="stat-card">
+                <div><h4 class="text_img"><img src="./images/lungs_img.png" height="50px">Lungs</h4> </div>
+                <div><p class="date26">Date:26 Oct 2021</p>
+                 <div class="outter_bg">
+                  <div id="inner_red"></div>
+                 </div>
+                </div>
+              </div>
+
+              <div class="stat-card">
+                <div><h4 class="text_img"><img src="./images/teeth_img.png" height="50px">Teeth</h4> </div>
+                <div><p class="date26">Date:26 Oct 2021</p>
+                  <div class="outter_bg">
+                  <div id="inner_green"></div>
+                 </div>
+
+                </div>
+              </div>
+
+              <div class="stat-card">
+                <div><h4 class="text_img"><img src="./images/bone_img.png" height="50px" >Bone</h4></div>
+                <div><p class="date26">Date:26 Oct 2021</p>
+                  <div class="outter_bg">
+                  <div id="inner_orange"></div>
+                  </div>
+                </div>  
+              </div>
+              <div id="details"><h5 style="color: #5c74d4;">Details 🠊</h5></div>
+        </div>
+      </div>
+
+          <div class="activity">
+            
+          <div id="appointment"><h3>Activity</h3>
+            <p style="font-size: 15px; color: #6e6a6ab2;">3 appointment on this week</p>
+          </div>
+          <div class="bar-chart"> 
+          <div class="bar1_type"> 
+             <div class="bar bar1" ></div>
+             <div class="bar bar2" ></div>
+             <div class="bar3">
+              <div class="bar bar21 bar222"></div>
+              <div class="bar bar22 bar222" ></div>
+             </div>
+             <div class="bar bar4 bar40" ></div>
+             
+          </div>
+          <div class="bar1_type"> 
+             <div>
+              <div class="bar bar11"></div>
+              <div class="bar bar12" ></div>
+             </div>
+             <div class="bar bar2" ></div>
+             <div class="bar3">
+              <div class="bar bar21 bar222"></div>
+              <div class="bar bar22 bar222" ></div>
+             </div>
+             <div class="bar bar4 bar41" ></div>
+          </div>
+          <div class="bar1_type"> 
+             <div class="bar bar1" ></div>
+             <div class="bar bar2" ></div>
+             <div class="bar3">
+              <div class="bar bar21 bar211"></div>
+              <div class="bar bar22 bar212" ></div>
+             </div>
+             <div class="bar bar4 bar42" ></div>
+             
+          </div>
+          <div class="bar1_type"> 
+             <div  >
+              <div class="bar bar111"></div>
+              <div class="bar bar111" ></div>
+             </div>
+             <div class="bar bar2" ></div>
+             <div class="bar3">
+              <div class="bar bar21 bar211"></div>
+              <div class="bar bar22 bar212" ></div>
+             </div>
+             <div class="bar bar4 bar40" ></div>
+          </div>
+          <div class="bar1_type"> 
+             <div class="bar bar1" ></div>
+             <div class="bar bar2" ></div>
+             <div class="bar3">
+              <div class="bar bar21 bar222"></div>
+              <div class="bar bar22 bar222" ></div>
+             </div>
+             <div class="bar bar4 bar40" ></div>
+          </div>
+          <div class="bar1_type"> 
+             <div  >
+              <div class="bar bar11"></div>
+              <div class="bar bar12" ></div>
+             </div>
+             <div class="bar bar2" ></div>
+             <div class="bar3">
+              <div class="bar bar21 bar222"></div>
+              <div class="bar bar22 bar222" ></div>
+             </div>
+             <div class="bar bar4 bar42" ></div>
+          </div>
+          <div class="bar1_type"> 
+             <div class="bar bar1" ></div>
+             <div class="bar bar2" ></div>
+             <div class="bar3">
+              <div class="bar bar21 bar211"></div>
+              <div class="bar bar22 bar212" ></div>
+             </div>
+             <div class="bar bar4 bar42" ></div>
+          </div> 
+          <div class="bar1_type"> 
+             <div  >
+              <div class="bar bar111"></div>
+              <div class="bar bar111" ></div>
+             </div>
+             <div class="bar bar2" ></div>
+             <div class="bar3">
+              <div class="bar bar21 bar222"></div>
+              <div class="bar bar22 bar222" ></div>
+             </div>
+             <div class="bar bar4 bar42" ></div>
+          </div> 
+        </div>
+        <div class="day">
+          <div>Mon</div>
+          <div>Tues</div><div>Wed</div><div>Thurs</div><div>Fri</div><div>Sat</div><div>Sun</div>
+
+        </div>
+        </div>
+        
+       </div>
+       </div>
+</div>
+
+
+   <div class="right-panel">
+    <div class="calendar">
+      <div id="profile_img"> 
+        <div id="profile_icon"><img  src="./images/profile_icon.png"alt="profile" height="38px"></div> 
+        <div class="add_icon"><img src="./images/add_icon.png" alt="add calendar" height="43px"> </div>
+      </div>
+
+      <div id="oct_2021">
+            <div><h3 class="text_padding" style="margin-bottom: 20px;">October 2021</h3></div>
+            <div id="arrows_r_l">🠈 🠊</div>
+      </div>
+      <div >
+          <div class="weeks ">
+          <div class="days">
+              <div class="text_gap"><h6 style="font-size: 15px;">Mon</h6></div>
+              <div class="text_gap today_date" ><h4>25</h4></div>
+              <div class="text_gap time"><p>10:00</p></div>
+              <div class="text_gap time"><p>11:00</p></div>
+              <div class="text_gap time"><p>12:00</p></div>
+            
+          </div>
+            <div class="days tues">
+              <div class="text_gap"><h6 style="font-size: 15px;">Tues</h6></div>
+              <div class="text_gap today_date"><h4>26</h4></div>
+              <div class="text_gap8 time"><p>08:00</p></div>
+              <div class=" time time9"><p>09:00</p></div>
+              <div class="text_gap time"><p>10:00</p></div>
+            </div>
+            <div class="days">
+               <div class="text_gap"><h6 style="font-size: 15px;">Wed</h6></div>
+               <div class="text_gap today_date"><h4>27</h4></div>
+              <div class="text_gap time"><p>12:00</p></div>
+              <div class="text_gap time"><p>----</p></div>
+              <div class="text_gap time"><p>13:00</p></div>
+            </div>
+            <div class="days">
+              <div class="text_gap"><h6 style="font-size: 15px;">Thu</h6></div>
+             <div class="text_gap today_date"><h4>28</h4></div>
+              <div class="text_gap8 time"><p>10:00</p></div>
+              <div class="time time9 time11"><p>11:00</p></div>
+              <div class="text_gap time"><p>----</p></div>
+            </div>
+            <div class="days">
+                <div class="text_gap"><h6 style="font-size: 15px;">Fri</h6></div>
+               <div class="text_gap today_date"><h4>29</h4></div>
+              <div class="text_gap time"><p>----</p></div>
+              <div class="text_gap time"><p>14:00</p></div>
+              <div class="text_gap time"><p>16:00</p></div>
+            </div>
+            <div class="days ">
+               <div class="text_gap"><h6 style="font-size: 15px;">Sat</h6></div>
+               <div class="text_gap8 today_date"><h4>30</h4></div>
+              <div class="time time9 time11"><p>12:00</p></div>
+              <div class="text_gap time"><p>14:00</p></div>
+              <div class="text_gap time"><p>15:00</p></div>
+            </div>
+            <div class="days " >
+              <div class="text_gap txt_colour "><h6 style="font-size: 15px;">Sun</h6></div>
+             <div class="text_gap8 today_date txt_colour"><h4>31</h4></div>
+              <div class="time time9 time11 "><p>09:00</p></div>
+              <div class="text_gap time txt_colour"><p>10:00</p></div>
+              <div class="text_gap time txt_colour"><p>11:00</p></div></div>  
+          </div>
+
+          
+      </div>
+    </div>
+       <div class="daily_schedule">
+           <div class="event Dentist_color">
+            <div ><div class="schedule_img"><h4>Dentist</h4><img src="./images/teeth_img.png" height="23px" alt="teeth_img"></div><div style="font-size: 13px;">09:00 - 11:00<br>
+            Dr.Cameron Williamson</div>
+            </div>
+          </div>
+          <div class="event">
+            <div class="schedule_img"><h4 class="gap_for_img">Physiotherapy Appointnment</h4><img src="./images/hand_icon.png" height="30px" alt="teeth_img"></div><div style="font-size: 13px;">11:00 - 12:00<br>
+            Dr. Kevin Djones</div>
+          </div>
+       </div>
+       <div class="text_padding"><h3>The Upcoming Schedule</h3></div>
+       <div class="text_padding" style="color: rgb(136, 151, 151);"><p>On Thursday</p></div>
+       <div class="daily_schedule">
+          <div class="event">
+            <div class="schedule_img"><h4 class="gap_for_img">Health checkup complete</h4><img src="./images/syring_icon.png" height="29px" alt="teeth_img"> </div><div style="font-size: 13px;">11:00 AM
+          </div></div>
+          <div class="event">
+            <div class="schedule_img"><h4  class="gap_for_img">Ophthalmologist</h4> <img src="./images/eye_icon.png" height="32px" alt="teeth_img"></div> <div style="font-size: 13px;">14:00 PM
+          </div></div>
+        </div>
+        <div class="text_padding" style="color: rgb(136, 151, 151);"><p>On Saturday</p></div>
+        <div class="daily_schedule ">
+          <div class="event">
+            <div class="schedule_img"><h4 class="gap_for_img">Cardiologist</h4><img src="./images/hearth_icon.png" height="25px" alt="teeth_img"></div> <div style="font-size: 13px;">12:00 AM
+          </div></div>
+          <div class="event">
+            <div class="schedule_img"><h4 class="gap_for_img">Neurologist</h4><img src="./images/docter_icon.png" height="29px" alt="teeth_img"></div> <div style="font-size: 13px;">16:00 PM
+          </div></div>
+        </div>
+        </div>
+      
+    
+  </div>
+  
+</body>
+</html>
+
