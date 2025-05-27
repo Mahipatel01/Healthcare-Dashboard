@@ -1,2 +1,2 @@
 # Healthcare-Dashboard
-Front den project on health care dash board
+Front end project on health care dash board
